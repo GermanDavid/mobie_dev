@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Game of Thrones</string>
+
+    <string-array name="StarkMembers">
+        <item>Rickard Stark</item>
+        <item>Eddard Stark</item>
+        <item>Catelyn Stark</item>
+        <item>Robb Stark</item>
+        <item>Talissa</item>
+        <item>Sansa Stark</item>
+        <item>Arya Stark</item>
+        <item>Brandon Stark</item>
+        <item>Rickon Stark</item>
+        <item>Jon Snow</item>
+    </string-array>
+
+    <string-array name="StarkDescription">
+        <item>The former head of the family.</item>
+        <item>Rickards second son and heir.</item>
+        <item>Eddards wife.</item>
+        <item>Rickard and Catelyn eldest son.</item>
+        <item>Robbs wife.</item>
+        <item>Rickard and Catelyn eldest daughter.</item>
+        <item>Rickard and Catelyn youngest daughter.</item>
+        <item>Rickard and Catelyn second son.</item>
+        <item>Rickard and Catelyn youngest son.</item>
+        <item>Illegitimate son of Eddard.</item>
+    </string-array>
+
+    <string-array name="LannisterMembers">
+        <item>Tytos Lannister</item>
+        <item>Robert Baratheon</item>
+        <item>Tywin Lannister</item>
+        <item>Cersei Lannister</item>
+        <item>Jaime Lannister</item>
+        <item>Tyrion Lannister</item>
+        <item>Joffrey Baratheon</item>
+        <item>Kevan Lannister</item>
+
+    </string-array>
+
+    <string-array name="LannisterDescription">
+        <item>The former head of the family.</item>
+        <item>The ruler of the Seven Kingdoms.</item>
+        <item>Tytos eldest son and heir.</item>
+        <item>Tywin only daughter.</item>
+        <item>Tywin eldest son.</item>
+        <item>Tywin youngest son.</item>
+        <item>Cerseis second son.</item>
+        <item>Tywins younger brother.</item>
+
+    </string-array>
+    <string name="title_activity_stark_second">StarkSecondActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
