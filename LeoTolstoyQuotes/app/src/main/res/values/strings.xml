@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Leo Tolstoy Quotes</string>
+    <string name="app_name">
+        "Leo Tolstoy Quotes"
+    </string>
+
+    <string-array name="TolstoyQuotes">
+        <item>“Everyone thinks of changing the world, but no one thinks of changing himself.”</item>
+        <item>“All happy families are alike each unhappy family is unhappy in its own way.” </item>
+        <item>“If you look for perfection, youll never be content.” </item>
+        <item>“It is amazing how complete is the delusion that beauty is goodness.”</item>
+        <item>“Respect was invented to cover the empty place where love should be.” </item>
+        <item>“Spring is the time of plans and projects.” </item>
+        <item>“If you want to be happy, be.” </item>
+        <item>“Is it really possible to tell someone else what one feels?”</item>
+        <item>“When you love someone, you love the person as they are, and not as youd like them to be.”</item>
+        <item>“The two most powerful warriors are patience and time.”</item>
+        <item>“Be bad, but at least dont be a liar, a deceiver!” </item>
+        <item>“Anything is better than lies and deceit” </item>
+        <item>“Boredom: the desire for desires.”</item>
+        <item>“There is no greatness where there is not simplicity, goodness, and truth.” </item>
+        <item>“Happiness does not depend on outward things, but on the way we see them.”</item>
+        <item>“True life is lived when tiny changes occur.”</item>
+    </string-array>
+
+
 </resources>
