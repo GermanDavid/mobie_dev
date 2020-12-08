@@ -2,13 +2,14 @@ package com.gameofthrones.leotolstoyquotes;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
+
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-
-
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
+
+
 
 public class QuoteIntentService  extends IntentService  {
 
@@ -16,6 +17,7 @@ public class QuoteIntentService  extends IntentService  {
     private static int arrLoc = 0;
     private static String[] quotes = {"Hi there", "Hello"};
     private NotificationManagerCompat notificationManager;
+    static String CHANNEL_ID = "CHANNEL";
 
 
     public QuoteIntentService() {
@@ -50,7 +52,7 @@ public class QuoteIntentService  extends IntentService  {
         if(notificationManager == null){
             notificationManager = NotificationManagerCompat.from(this);
         }
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, channel)
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle("Quote")
                 .setContentText(quotes[arrLoc]);
@@ -67,5 +69,6 @@ public class QuoteIntentService  extends IntentService  {
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(),
                 5*60*1000, alarmIntent);
     }
+
 
 }
