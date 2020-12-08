@@ -61,7 +61,7 @@ public class AlarmReciever extends BroadcastReceiver {
             NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                     .setContentIntent(pendingIntent)
                     .setSmallIcon(android.R.drawable.star_on)
-                    .setContentTitle("FRIENDS Quote")
+                    .setContentTitle("Leo Tolstoy Quotes")
                     .setContentText(quotes[randomLocation])
                     .setAutoCancel(true);
             notificationManager.notify(100,builder.build());
