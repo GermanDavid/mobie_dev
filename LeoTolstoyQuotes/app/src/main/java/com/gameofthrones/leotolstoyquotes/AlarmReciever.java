@@ -7,7 +7,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
@@ -56,17 +55,5 @@ public class AlarmReciever extends BroadcastReceiver {
                     .setAutoCancel(true);
             notificationManager.notify(100,builder.build());
         }
-        /*
-        else{ //In case version is 25 or under
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
-                    .setContentIntent(pendingIntent)
-                    .setSmallIcon(android.R.drawable.star_on)
-                    .setContentTitle("Leo Tolstoy Quotes")
-                    .setContentText(quotes[randomLocation])
-                    .setAutoCancel(true);
-            notificationManager.notify(100,builder.build());
-        }
-
-         */
     }
 }
