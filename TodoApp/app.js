@@ -1,14 +1,50 @@
-const express = require('express')
+//Server set up
+const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
-const port = 3000;
 
-// Set up the template engine
-app.set('view engine', 'ejs');
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/', (req, res) => {
-  res.render('app')
+// Set up the template ejs engine
+app.set("view engine", "ejs");
+//render css files
+app.use(express.static("public"));
+
+//placeholders for added task
+var task = ["do mobile hw", "cook a meal"];
+//placeholders for removed task
+var complete = ["algorithm ex"];
+
+//post route for adding new task 
+app.post("/addtask", function(req, res) {
+    var newTask = req.body.newtask;
+    //add the new task from the post route
+    task.push(newTask);
+    res.redirect("/");
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}!`)
+app.post("/removetask", function(req, res) {
+    var completeTask = req.body.check;
+    //check for the "typeof" the different completed task, then add into the complete task
+    if (typeof completeTask === "string") {
+        complete.push(completeTask);
+        //check if the completed task already exits in the task when checked, then remove it
+        task.splice(task.indexOf(completeTask), 1);
+    } else if (typeof completeTask === "object") {
+        for (var i = 0; i < completeTask.length; i++) {
+            complete.push(completeTask[i]);
+            task.splice(task.indexOf(completeTask[i]), 1);
+        }
+    }
+    res.redirect("/");
+});
+
+//render the ejs and display added task, completed task
+app.get("/", function(req, res) {
+    res.render("app", { task: task, complete: complete });
+});
+
+//set app to listen on port 3000
+app.listen(3000, function() {
+    console.log("server is running on port 3000");
 });

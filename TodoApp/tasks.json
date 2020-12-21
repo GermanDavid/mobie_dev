@@ -1,0 +1,30 @@
+{
+    "id": 1,
+    "lists": [{
+        "name": "Home", 
+        "tasks": [
+          {
+            "name": "Clean room", 
+            "done": false
+  
+          }, {
+            "name": "Get storage unit", 
+            "done": false
+          }, {
+              "name": "Cook a meal",
+              "done": false
+          }
+        ]
+      }, {
+        "name": "College", 
+        "tasks": [
+          {
+            "name": "Algo ex 8", 
+            "done": false
+          }, {
+            "name": "Mobile ex 4", 
+            "done": false
+          }]
+      }]
+}
+  
