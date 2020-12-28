@@ -1,50 +1,103 @@
-//Server set up
-const express = require("express");
-const bodyParser = require("body-parser");
-const app = express();
+const express = require('express');
+const bodyParser = require('body-parser');
+const fs = require('fs');
+let app = express();
+app.use(bodyParser.json());
 
-app.use(bodyParser.urlencoded({ extended: true }));
-
-// Set up the template ejs engine
-app.set("view engine", "ejs");
-//render css files
-app.use(express.static("public"));
-
-//placeholders for added task
-var task = ["do mobile hw", "cook a meal"];
-//placeholders for removed task
-var complete = ["algorithm ex"];
-
-//post route for adding new task 
-app.post("/addtask", function(req, res) {
-    var newTask = req.body.newtask;
-    //add the new task from the post route
-    task.push(newTask);
-    res.redirect("/");
+//See all tasks in the TODO list
+app.get('/tasks', (req, res) => {
+    res.send(readJsonFile());
+    console.log("tasks.js is displayed");
 });
 
-app.post("/removetask", function(req, res) {
-    var completeTask = req.body.check;
-    //check for the "typeof" the different completed task, then add into the complete task
-    if (typeof completeTask === "string") {
-        complete.push(completeTask);
-        //check if the completed task already exits in the task when checked, then remove it
-        task.splice(task.indexOf(completeTask), 1);
-    } else if (typeof completeTask === "object") {
-        for (var i = 0; i < completeTask.length; i++) {
-            complete.push(completeTask[i]);
-            task.splice(task.indexOf(completeTask[i]), 1);
+//Add a new task to the TODO list
+app.get('/tasks/new',(req, res) => {
+    
+    let tasksList = JSON.parse(readJsonFile());
+    let id = req.query.id || "NaN";
+    let taskDescription = req.query.task || "None";
+
+    if(isNaN(id)){ //There is no ID number
+        res.send("Invalid ID number");
+    } else {
+        if(!tasksList.hasOwnProperty(id)){ //There is no task with the same ID in the JSON file
+            tasksList[id] = taskDescription; 
+            //Adding the new task in the JSON file
+            writeToJson(tasksList);
+    
+            console.log("Added new task number " + id + " to your TO DO list");
+            res.send("Added new task \n id: " + id + "\n task: " + taskDescription);
+        } else {
+            res.send("The ID that was chosen already exists, please choose a new one");
+        }  
+    }
+});
+
+//Delete task from the TODO list
+app.get('/tasks/remove',(req, res) => {
+    
+    let tasksList = JSON.parse(readJsonFile());
+    let id = req.query.id;
+
+    if(isNaN(id)){ //There is no ID number
+        res.send("Invalid ID number");
+    } else {
+        if(tasksList.hasOwnProperty(id)){ //There is a task with the same ID in the JSON file
+            //Delete the task from the String
+            delete tasksList[id]; 
+
+            console.log("Delete task number " + id + " from your TO DO list");
+            res.send("Delete the task with id: " + id + " from JSON file");
+
+            //Update the JSON file after the deleting
+            writeToJson(tasksList);
+        } else {
+            res.send("There is no task with such ID, please try again");
         }
     }
-    res.redirect("/");
 });
 
-//render the ejs and display added task, completed task
-app.get("/", function(req, res) {
-    res.render("app", { task: task, complete: complete });
+//Delete all tasks from the TODO list
+app.get('/tasks/removeAll',(req, res) => {
+    let tasksList = { };
+
+    console.log("Delete all tasks from your TO DO list");
+    res.send("Delete all tasks from JSON file");
+
+    //Update the JSON file after the deleting
+    writeToJson(tasksList);
 });
 
-//set app to listen on port 3000
-app.listen(3000, function() {
-    console.log("server is running on port 3000");
-});
+
+app.listen(3000,() => {
+  console.log('Listening on port 3000!')});
+
+/***********************************************************************************************
+ * Read the JSON file using readFileSync, abd return the file content that read before.
+ * If there is any problem, throw error message.
+ ***********************************************************************************************/
+function readJsonFile() {
+    let jsonFile = fs.readFileSync('tasks.json', 'utf-8', (err) => {
+        if (err){
+            console.log("File reading failed");
+            throw err;
+        }
+    });
+    return jsonFile;
+}
+
+/***********************************************************************************************
+ * The function gets JS object and create a String object from it,
+ * and writes it in the JSON file. If there is any problem, throw error message.
+ ***********************************************************************************************/
+function writeToJson(file){
+    let jsonString = JSON.stringify(file, null, 4);
+    fs.writeFile('tasks.json', jsonString, (err) => {
+        if (err) {
+            console.log("Error writing file", err);
+            throw err;
+        } else {
+            console.log("Successfully wrote file");
+        }
+    });
+}
