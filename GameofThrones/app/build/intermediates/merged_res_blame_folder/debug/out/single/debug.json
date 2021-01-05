@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/layout_activity_stark.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/layout/activity_stark.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable__18px_house_lannister_svg.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/_18px_house_lannister_svg.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_robert_baratheon.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/robert_baratheon.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_joffrey_baratheon.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/joffrey_baratheon.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_joanna_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/joanna_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_tyrion_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/tyrion_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_kevan_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/kevan_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_lyanna_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/lyanna_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_jon_snow.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/jon_snow.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_jaime_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/jaime_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_cersei_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/cersei_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/layout_activity_lannister.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/layout/activity_lannister.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/layout_stark_row.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/layout/stark_row.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_tytos_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/tytos_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/layout_activity_stark_second.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/layout/activity_stark_second.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_eddard_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/eddard_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_catelyn_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/catelyn_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_arya_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/arya_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_tywin_lannister.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/tywin_lannister.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_rickard_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/rickard_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable__18px_house_stark_svg.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/_18px_house_stark_svg.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_bran_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/bran_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_rickon_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/rickon_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_sansa_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/sansa_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_robb_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/robb_stark.png"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/layout_lannister_row.xml.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/layout/lannister_row.xml"
+    },
+    {
+        "merged": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/build/intermediates/res/merged/debug/drawable_talisa_stark.png.flat",
+        "source": "/Users/DavidGuerman/AndroidStudioProjects/GameofThrones/app/src/main/res/drawable/talisa_stark.png"
+    }
+]

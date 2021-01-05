@@ -1,0 +1,9 @@
+com/gameofthrones/leotolstoyquotes/QuoteIntentService.java
+ com.gameofthrones.leotolstoyquotes.QuoteIntentService
+com/gameofthrones/leotolstoyquotes/BuildConfig.java
+ com.gameofthrones.leotolstoyquotes.BuildConfig
+com/gameofthrones/leotolstoyquotes/MainActivity.java
+ com.gameofthrones.leotolstoyquotes.MainActivity
+ com.gameofthrones.leotolstoyquotes.MainActivity$1
+com/gameofthrones/leotolstoyquotes/AlarmReciever.java
+ com.gameofthrones.leotolstoyquotes.AlarmReciever
